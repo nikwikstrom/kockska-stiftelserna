@@ -73,6 +73,12 @@ export default function HistoryPage() {
           </div>
         </section>
 
+        <section className="shell interior-section" aria-labelledby="industry-title">
+          <div className="text-split"><p className="eyebrow">Handel och industri</p><div><h2 id="industry-title">Johan Kocks företag formade staden.</h2><p>År 1889 tog Johan Kock över familjeföretaget och inriktade handeln mot bland annat spannmål, timmer, byggmaterial, järnvaror och kol. Under de följande årtiondena startade eller drev han flera företag i Trelleborg.</p><ol className="archive-list"><li><span>1894</span><strong>Trelleborgs Bryggeri AB</strong></li><li><span>1894</span><strong>Trelleborgs Stenkolsbolag AB</strong></li><li><span>1896</span><strong>AB Velox</strong></li><li><span>1898</span><strong>Kocks Snickerifabriker AB</strong></li><li><span>1899</span><strong>Sydsvenska Cementvarubolaget</strong></li><li><span>1905</span><strong>Trelleborgs Gummifabrik AB</strong></li><li><span>1919</span><strong>Trelleborgs Glasindustri AB</strong></li></ol></div></div>
+        </section>
+
+        <section className="interior-band" aria-labelledby="legacy-title"><div className="shell text-split"><p className="eyebrow">Från företag till stiftelser</p><div><h2 id="legacy-title">Ett arv med flera uppdrag.</h2><p>Greta och Johan Kock fick inga barn. De förordnade att deras kvarlåtenskap skulle gå till tre stiftelser. Två av dem finns fortfarande kvar: stiftelsen för behövande unga, gamla eller sjuka och stiftelsen för Trelleborgs stads försköning. En släktstiftelse är senare avvecklad.</p><p>Stiftelsen Hemmet för gamla bildades i början av 1950-talet. Tillsammans bär verksamheterna arvet vidare genom sociala insatser, forskning och arbete för Trelleborg.</p><a className="text-link" href="/stiftelserna">Se stiftelsernas ändamål</a></div></div></section>
+
         <section className="history-places" aria-labelledby="places-title">
           <div className="shell history-places-intro">
             <p className="eyebrow">03 / Platserna</p>
@@ -107,7 +113,7 @@ export default function HistoryPage() {
             <div><h2 id="today-title">Arvet fortsätter att verka.</h2><p>Historien förklarar var resurserna kommer ifrån. Stiftelsernas uppdrag avgör hur de används i dag.</p><a href="/#vad-vi-gor">Se vad stiftelserna gör <span aria-hidden="true">↗</span></a></div>
           </div>
         </section>
-        <p className="shell history-source">Historiska uppgifter och fotografier är hämtade ur de tillhandahållna bokutdragen, s. 11 och 27. Övriga illustrationer kommer från tillhandahållet arkivmaterial. Publiceringsrätt verifieras inför lansering.</p>
+        <p className="shell history-source">Historiska uppgifter och fotografier är hämtade ur de tillhandahållna bokutdragen, s. 11 och 27, samt från stiftelsernas nuvarande bakgrundssida. Övriga illustrationer kommer från tillhandahållet arkivmaterial. Publiceringsrätt verifieras inför slutlig lansering.</p>
       </main>
       <SiteFooter contact={siteContent.contact} />
     </>

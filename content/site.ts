@@ -37,8 +37,8 @@ export const siteContent = {
       intro: "Stöd för barn och unga, äldre och personer som behöver hjälp.",
       details:
         "Fromma stiftelsen och Hemmet för gamla har olika ändamål. För lokalt stöd anges den 1 april och 1 oktober som ansökningstider på nuvarande webbplats. Bostadsbidrag kan sökas löpande under året.",
-      action: "Fråga kansliet om rätt ansökan",
-      href: "mailto:info@kockskastiftelsen.se?subject=Fr%C3%A5ga%20om%20st%C3%B6d%20f%C3%B6r%20privatperson",
+      action: "Se villkor och ansökan",
+      href: "/sok-stod/privatpersoner",
     },
     {
       id: "forening",
@@ -47,8 +47,8 @@ export const siteContent = {
       intro: "Stöd för insatser med anknytning till Trelleborg.",
       details:
         "Föreningar och organisationer i Trelleborg kan söka stöd inom stiftelsens ändamål. Om en lokal förening saknas kan en regional förening med anknytning till Trelleborg vara aktuell.",
-      action: "Fråga kansliet om villkor",
-      href: "mailto:info@kockskastiftelsen.se?subject=Fr%C3%A5ga%20om%20f%C3%B6reningsst%C3%B6d",
+      action: "Se villkor och ansökan",
+      href: "/sok-stod/foreningar",
     },
     {
       id: "forskare",
@@ -57,8 +57,8 @@ export const siteContent = {
       intro: "Finansiering för kliniskt patientnära medicinsk forskning.",
       details:
         "Den aktuella projektmedelsutlysningen riktar sig till forskare med relevant anställning vid Lunds universitet eller Region Skånes vårdverksamheter. Läs alltid den fullständiga utlysningstexten före ansökan.",
-      action: "Se aktuell utlysning",
-      href: "#aktuella-utlysningar",
+      action: "Se forskningsmedel och villkor",
+      href: "/sok-stod/medicinsk-forskning",
     },
   ] satisfies Audience[],
   calls: [

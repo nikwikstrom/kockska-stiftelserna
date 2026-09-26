@@ -4,6 +4,10 @@ Princip: besökarens ärende först, juridisk struktur som förklaring där den 
 
 ## Huvudnavigation
 
+Implementerad i prototypen 27 september 2026: **Sök stöd**, **Stiftelserna**, **Vad vi gör**, **Historien**, **Aktuellt**, **Kontakt**. De fyra ursprungliga stiftelse-/fondnamnen ligger kvar i undermenyn **Stiftelserna**. Se `08-content-reconciliation.md` för källavstämning och kvarstående migration.
+
+Den långsiktiga strukturen nedan beskriver även funktioner som ännu inte är byggda.
+
 1. **Sök stöd** — privatperson, förening/organisation, äldre, medicinsk forskning, aktuella utlysningar, så går det till, frågor och svar.
 2. **Vad vi gör** — socialt stöd, medicinsk forskning, Trelleborg och stadsmiljö, stipendier och priser.
 3. **Projekt & resultat** — projektarkiv, forskningsprojekt, beviljade stöd som kan publiceras, konstkarta, forskningspriser.

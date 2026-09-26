@@ -16,6 +16,7 @@ export function SiteFooter({ contact }: { contact: HomepageContent["contact"] })
           <p>Besök efter överenskommelse.</p>
         </div>
       </div>
+      <nav className="shell footer-links" aria-label="Sidfotsnavigation"><a href="/sok-stod">Sök stöd</a><a href="/stiftelserna">Stiftelserna</a><a href="/vad-vi-gor">Vad vi gör</a><a href="/om-kockska/historia">Historien</a><a href="/om-kockska/organisation">Organisation</a><a href="/aktuellt">Aktuellt</a><a href="/kontakt">Kontakt</a></nav>
       <div className="shell footer-bottom"><span>© {new Date().getFullYear()} Kockska stiftelserna</span><span>Ett arv som fortfarande gör skillnad.</span></div>
       <div className="shell footer-brand">
         <div className="footer-brand-signature">
