@@ -10,7 +10,7 @@
 
 :root {
   color-scheme: light;
-  --font-site: "garamond-premier-pro", "Iowan Old Style", Georgia, serif;
+  --font-site: "garamond-premier-pro", "EB Garamond", Garamond, serif;
 }
 html { scroll-behavior: smooth; scroll-padding-top: 6.5rem; }
 body { margin: 0; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-site); font-size: 1.0625rem; line-height: 1.6; -webkit-font-smoothing: antialiased; }

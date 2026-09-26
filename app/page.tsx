@@ -5,8 +5,6 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getHomepageContent } from "@/lib/content";
 
-export const revalidate = 3600;
-
 export default async function HomePage() {
   const { hero, audiences, calls, workAreas, history, news, contact } = await getHomepageContent();
 

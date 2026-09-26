@@ -2,6 +2,10 @@
 
 Fristående webbprototyp i Next.js, TypeScript och Tailwind CSS. Den innehåller en startsida och en historiesida. Nuvarande sajt används som faktakälla och migrationsunderlag, inte som visuell mall eller tekniskt beroende.
 
+## Delbar förhandsvisning
+
+[Öppna webbplatsen](https://kockska-stiftelserna.nikwikstrom.chatgpt.site/). Förhandsvisningen är öppen för alla med länken och är märkt `noindex` medan innehåll och funktioner färdigställs.
+
 ## Kom igång
 
 Installera Node.js och pnpm. Kör sedan:
@@ -17,6 +21,6 @@ pnpm dev
 
 De sju besluts- och migreringsunderlagen finns i [`docs/`](./docs/). Prototypens innehåll ligger i [`content/site.ts`](./content/site.ts), med en utbytbar läsadapter i [`lib/content.ts`](./lib/content.ts). Datumslogik för utlysningar finns i [`lib/calls.ts`](./lib/calls.ts).
 
-Webbplatsen använder Garamond Premier Pro via Adobe Fonts. Det nuvarande typsnittskitet är begränsat till lokal förhandsvisning på `localhost` och `127.0.0.1`. Ett eget Adobe Fonts-kit för produktionsdomänen behövs före lansering. Arkivbilderna kommer från tillhandahållet material och ska rättighetskontrolleras före offentlig publicering.
+Webbplatsen använder Garamond Premier Pro via Adobe Fonts lokalt och EB Garamond som reserv på den delbara adressen. Det nuvarande Adobe-kitet är begränsat till `localhost` och `127.0.0.1`; ett kit för produktionsdomänen behövs inför slutlig lansering. Arkivbilderna kommer från tillhandahållet material. Publiceringsrätt ska dokumenteras inför slutlig lansering.
 
-CMS-anslutning, kompletta stödsidor och produktionsdrift återstår. Prototypen är `noindex` tills den är färdig för lansering. Att koden finns på GitHub innebär inte att webbplatsen är driftsatt.
+CMS-anslutning och kompletta stödsidor återstår. Den delbara förhandsvisningen uppdateras genom en ny publicering; innehållet i den statiska versionen följer inte ändringar i utlysningarnas datum automatiskt.
