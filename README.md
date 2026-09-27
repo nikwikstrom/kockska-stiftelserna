@@ -1,26 +1,25 @@
 # Kockska stiftelserna
 
-Fristående webbprototyp i Next.js, TypeScript och Tailwind CSS. Den innehåller en startsida och en historiesida. Nuvarande sajt används som faktakälla och migrationsunderlag, inte som visuell mall eller tekniskt beroende.
+Fristående Next.js/TypeScript-webbplats med Garamond, lokala bilder och dokument. Statisk export utan Squarespace-beroende.
 
-## Delbar förhandsvisning
-
-[Öppna webbplatsen](https://kockska-stiftelserna.nikwikstrom.chatgpt.site/). Förhandsvisningen är öppen för alla med länken och är märkt `noindex` medan innehåll och funktioner färdigställs.
-
-## Kom igång
-
-Installera Node.js och pnpm. Kör sedan:
+## Kör lokalt
 
 ```sh
 pnpm install
-pnpm dev
+pnpm dev --port 3217
+pnpm build
+python3 scripts/verify-content.py
 ```
 
-Öppna `http://localhost:3000`. Kontrollera ändringar med `pnpm build` och `pnpm typecheck`.
+`out/` innehåller publicerbar webbplats. `.openai/hosting.json` pekar på det befintliga Sites-projektet. Sites-workflow används för publicering och proveniens. Ingen ansökningsinformation får läggas i den publika koden.
 
-## Status och innehåll
+## Innehåll och ansökningar
 
-De sju besluts- och migreringsunderlagen finns i [`docs/`](./docs/). Prototypens innehåll ligger i [`content/site.ts`](./content/site.ts), med en utbytbar läsadapter i [`lib/content.ts`](./lib/content.ts). Datumslogik för utlysningar finns i [`lib/calls.ts`](./lib/calls.ts).
+- `content/migration/`: fullständiga artiklar, migrerad verksamhetstext, konstarkiv och spårbar URL-/dokumentförteckning.
+- `public/dokument/`: sex oförändrade original-PDF:er.
+- `components/application-guide.tsx`: tre ansökningsguider med lokala checklistor, blanketter och postal inlämning. Checklistor är inte digital inlämning.
+- Forskning lämnas i stiftelsens externa Stiftelseapp.
+- Ingen backend för nya ansökningar och inget aktivt CMS är anslutet. Redaktionell arkitektur finns i `/docs`.
+- `docs/08-content-reconciliation.md`: täckning, verifiering, källkonflikter och kvarstående beslut.
 
-Webbplatsen använder Garamond Premier Pro via Adobe Fonts lokalt och EB Garamond som reserv på den delbara adressen. Det nuvarande Adobe-kitet är begränsat till `localhost` och `127.0.0.1`; ett kit för produktionsdomänen behövs inför slutlig lansering. Arkivbilderna kommer från tillhandahållet material. Publiceringsrätt ska dokumenteras inför slutlig lansering.
-
-CMS-anslutning och kompletta stödsidor återstår. Den delbara förhandsvisningen uppdateras genom en ny publicering; innehållet i den statiska versionen följer inte ändringar i utlysningarnas datum automatiskt.
+Originalets saknade sida `/forskningsmiljostod` svarar 404. Den tillgängliga nyhetsartikeln finns i sin helhet, men den saknade fördjupningstexten behöver återfås från stiftelsen för full historisk täckning.

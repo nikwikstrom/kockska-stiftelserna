@@ -1,0 +1,4 @@
+import { InteriorPage } from "@/components/interior-page";
+import { documents } from "@/content/documents";
+export const metadata = { title: "Blanketter och dokument | Kockska stiftelserna" };
+export default function DocumentsPage() { return <InteriorPage eyebrow="Dokument" title="Blanketter och dokument." intro="Här finns stiftelsernas ansökningsblanketter, anvisningar och integritetspolicy. Alla dokument är PDF-filer."><section className="shell interior-section"><div className="document-list">{documents.map(doc => <article key={doc.file}><h2>{doc.title}</h2><p>{doc.description}</p><div className="inline-links"><a className="text-link" href={`/dokument/${doc.file}`} target="_blank" rel="noopener noreferrer">Öppna PDF ↗</a><a className="text-link" href={`/dokument/${doc.file}`} download>Ladda ned</a><a className="text-link" href={doc.guide}>Läs mer →</a></div></article>)}</div></section></InteriorPage>; }

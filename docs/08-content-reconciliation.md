@@ -1,28 +1,48 @@
-# Innehållsavstämning mot den nuvarande sajten
+# Fullständig innehållsavstämning
 
-Kontrollerad 27 september 2026. Det här dokumentet skiljer på innehåll som nu finns i prototypen och material som kräver fortsatt redaktionell granskning. Den nuvarande sajten används som faktakälla och migrationskälla, inte som layoutmall.
+Kontrolldatum: 27 september 2026. Källan är den offentliga originalsajten och dess sitemap. Maskinläsbar proveniens, ursprungliga URL:er, destinationskarta, dokumentens SHA-256 och bildkällor finns i `content/migration/manifest.json` och `routes.json`.
 
-| Källa | Ny plats | Status |
-| --- | --- | --- |
-| Startsidan och fyra stiftelseingångar | `/`, `/stiftelserna`, `/sok-stod` | Huvudbudskap, ändamål och målgrupper återgivna i ny hierarki. |
-| Fromma stiftelsen, lokalt stöd | `/sok-stod/privatpersoner`, `/sok-stod/foreningar`, `/vad-vi-gor#stipendier` | Behörighet, ansökningstider, stipendier, vård- och tandvårdsanslag återgivna. Blanketter för privatperson och förening lagrade lokalt. |
-| Fromma stiftelsen, medicin | `/sok-stod/medicinsk-forskning`, `/vad-vi-gor` | Forskningsinriktning, behörighet, 2026 års belopp/datum, granskning och extern ansökan återgivna. Styrdokument lagrat lokalt. |
-| Hemmet för gamla | `/sok-stod/aldre`, `/stiftelserna#hemmet` | Bostadsbidrag, övriga bidrag, datum och upphörda lägenhetsansökningar återgivna. Blanketten behöver rättas: den innehåller både 2025- och 2026-uppgifter och publiceras därför inte här. |
-| Försköningsstiftelsen | `/vad-vi-gor#trelleborg`, `/stiftelserna#forsk` | Ändamål, 24 daterade insatser och ytterligare miljöprojekt återgivna som text. Bilder, upphovspersoner och geografisk precision kräver separat rättighets- och faktakontroll. |
-| Bakgrund | `/om-kockska/historia`, `/stiftelserna` | Paret, företag, testamentets stiftelser och historiska bilder återgivna. |
-| Styrelse och anställda | `/om-kockska/organisation` | Styrelse, VD, revisorer och vetenskapligt råd återgivna med datumangiven källnot. Aktuella mandat måste bekräftas. |
-| Nyheter | `/aktuellt` | Sex nyhetsposter från februari–september 2026 återgivna i sammanfattning. Fullständiga artikeltexter och eventuella originalbilder är inte migrerade. |
-| Kontakt | `/kontakt` och sidfot | Telefon, e-post, adress, besök efter överenskommelse och kontaktperson återgivna. |
+## Täckning
 
-## Medvetet kvarstående migration
+| Original | Destination och innehåll |
+| --- | --- |
+| `/home` | Startsida + stiftelseöversikt: fyra ändamål, cirka 1,5 Mkr lokalt och drygt 8 Mkr forskning. E-bok på historiesidan; forskningsmiljöstöd i nyhetsarkivet. |
+| `/fromma-stiftelsen` | `/stiftelserna/fromma`: hela verksamhetstexten, alla stipendier och separata anslag till lasarett respektive Folktandvård. Ansökningsguider för privatpersoner och föreningar. |
+| `/fromma-stiftelsen-medicin` | `/stiftelserna/medicinsk-forskning`: hela informationen om behörighet, användning, CV, etikgodkännande, AI-redovisning, e-postbekräftelse, rapportering, granskning, symposium och 2021 års webbseminarium. |
+| `/hemmet-fr-gamla` | `/stiftelserna/hemmet-for-gamla` och äldre-guiden: hela verksamhetstexten, försäljningsdatum, köpare, stödformer och blankett. |
+| `/frskningsstiftelsen` | `/stiftelserna/forskoning` och `/vad-vi-gor/konst`: hela ändamålstexten, 24 insatser, 20 konstbilder med ursprungliga upphovsuppgifter, övriga kultur- och parkinsatser. |
+| `/bakgrund` | `/om-kockska/historia`: makarnas liv, dödsår, stiftelsernas tillkomst, omläggningen av handeln, de sju företagen med årtal och originalets två akvareller. Tidigare tillförda bokutdrag och bilder behålls. |
+| `/styrelse-och-anstallda` | `/om-kockska/organisation`: alla 14 personer, roller/utnämnare och rådets ordförandes kontaktuppgifter. |
+| `/kontakt` | `/kontakt`: telefon, e-post, adress, besök enligt överenskommelse och Kurt Dahlman. |
+| `/nyheter` + sex artiklar | `/aktuellt` + sex egna artikelsidor: hela artikeltexter, citat, datum, författare och bilder. Avslutad utlysning markeras. |
 
-- PDF:en ”Mer information om ansökan” och integritetspolicyn behöver originalfil, versionskontroll och godkännande. Den nya sajten ska inte ärva döda Squarespace-länkar.
-- Hemmet för gamlas blankett innehåller motstridiga årsuppgifter. Publicera en korrigerad version efter stiftelsens beslut.
-- Föreningsblanketten är märkt 2025. Kansliet ska bekräfta att den är gällande.
-- 2026 års nyheter är sammanfattade; för en fullständig arkivmigrering krävs varje artikel, bilder, författare och publiceringsdatum.
-- Offentlig konst behöver ett kvalitetssäkrat register med upphovsperson, plats, år och bildrätt. Den nuvarande sajten har överlapp mellan textlista och bildposter.
-- E-boken ligger fortfarande hos extern leverantör och behöver separat publiceringsbeslut.
+Samtliga 15 sidor i originalsajtens sidförteckning har en destination. Alla sex länkade PDF-dokument är lokalt bevarade, oförändrade. 49 bildresurser är hämtade; de 20 konstbilderna, sex artikelbilderna och historiskt relevanta akvarellerna visas. Äldre dekorativa hero-/kategoribilder är bevarade som migrationsmaterial men ersätter inte den godkända nya gestaltningen.
 
-## Menybeslut
+## Faktiska ansökningsvägar
 
-De fyra kända stiftelse- och fondnamnen bevaras under **Stiftelserna**. Den gamla menyn hade dem som enda huvudingång, vilket krävde att en ny besökare först förstod juridiken. **Sök stöd** ger därför separata vägar för privatpersoner, föreningar, äldre och forskare. **Vad vi gör**, **Om Kockska** (historia och organisation), **Aktuellt** och **Kontakt** gör resten av innehållet nåbart från varje sida.
+- Forskning: Stiftelseapp. Inloggningssidan visar skapa konto, glömt lösenord och ny bekräftelselänk. Ingen testansökan har skickats och ingen handläggarvy har verifierats.
+- Privatpersoner/föreningar: originalblanketter med postal inlämningsadress, bilagechecklistor, underskrifter och integritetspolicy.
+- Äldre/bostadsbidrag: publicerad originalblankett, checklista och kansliets postadress. Bostadsblanketten anger ingen egen inlämningsadress; kansliadressen kommer från kontaktsidan och de övriga blanketterna. Digital inlämning för denna stödform är inte belagd i källan.
+- Checklistorna är en förberedelse, samlar inga personuppgifter och skickar ingen ansökan. De ger aldrig ett falskt mottagningskvitto.
+- Ny digital mottagning för övriga stödformer är **inte implementerad**. Produktval om befintligt system kontra ny mottagning har ställts till Niklas. För en ny mottagning krävs identifierad mottagare, behörighetsmodell, säker lagring/bilagor och verifierad leverans/kvittens. Detta får inte ersättas med ett skenformulär.
+
+## Avvikelser som inte får döljas
+
+1. `/forskningsmiljostod` länkas från originalet men svarar 404. Fullständig tillgänglig nyhetsartikel är bevarad (2 Mkr totalt; 200–400 tkr per bidrag; 3 juni–19 juli 2026), men innehållet från den saknade fördjupningssidan kan inte verifieras. Dess länk är märkt otillgänglig i arkivet. Ingen text har hittats på eller gissats fram för den saknade sidan.
+2. Föreningarnas informations-PDF anger 1 april för särskilda ändamål och 1 april/1 oktober för nya projekt eller ny verksamhet; webbsidan anger generellt båda datumen. Guiden visar skillnaden och hänvisar till kansliet för rätt omgång.
+3. Bostadsblanketten innehåller prisbasbelopp från både 2025 och 2026. Originalet bevaras och en tydlig not finns vid nedladdningen. Inga egna ekonomiska trösklar används för att bedöma behörighet.
+4. Böst anges som 1995/1996 och Äventyret som 1957/1958 i originalets förteckning/bildtexter. Båda uppgifterna bevaras med förklaring.
+5. Originalets medicinska sida talar om symposiet både som kommande och genomfört. Texten bevaras; aktuell not anger att evenemanget är avslutat.
+6. Policyn är originalets fullständiga PDF från 17 mars 2021. Det är inte en ny policy granskad för ett nytt digitalt ansökningssystem.
+
+## Navigering och hierarki
+
+Sök stöd → fyra målgrupper + dokument. Stiftelserna → fyra egna verksamhetssidor. Vad vi gör → verksamhet/stipendier + konst. Om Kockska → historia + organisation. Aktuellt och Kontakt ligger kvar på första nivån. Dokument och integritet finns även i sidfoten.
+
+Undersidor har lägre rubrikstorlek, avgränsad läsbredd, sidinnehåll och direkta ansökningsvägar. Nyheterna har fullständiga artikelsidor. Garamond och godkänd färg-/bildriktning är bevarade.
+
+## Verifiering
+
+`pnpm build` och `python3 scripts/verify-content.py`. Den senare jämför migrerade originaltextblock med byggd HTML, kontrollerar samtliga PDF-hashar, konstbilder/upphovspersoner, namn, historiska nyckelfakta, interna länkar/ankare och en huvudrubrik per sida. Kontrollen passerade för 25 sidor och 1 451 interna länkar/bildreferenser. Manuell webbläsargranskning: 390 px mobil och 1 365 px desktop; mobilmeny till ansökningssida, alla tre checklistors fullständiga tillstånd, avmarkering och återställning efter omladdning, konstarkiv och artikelmall. Ingen horisontell överrinning i de kontrollerade vyerna. Stiftelseapps inloggning och konto-/återställningsvägar kontrollerades utan att skicka ansökan.
+
+URL-kartan är ett migrationsunderlag. Den ursprungliga domänens serverompekning och permanenta 301-omdirigeringar är inte genomförda; originaldomänen är oförändrad.

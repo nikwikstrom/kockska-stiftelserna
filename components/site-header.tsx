@@ -11,19 +11,20 @@ const navigation = [
       { label: "Föreningar", href: "/sok-stod/foreningar" },
       { label: "Äldre och bostadsbidrag", href: "/sok-stod/aldre" },
       { label: "Medicinsk forskning", href: "/sok-stod/medicinsk-forskning" },
+      { label: "Blanketter och dokument", href: "/dokument" },
     ],
   },
   {
     label: "Stiftelserna",
     links: [
       { label: "Stiftelserna och deras ändamål", href: "/stiftelserna" },
-      { label: "Fromma stiftelsen", href: "/stiftelserna#fromma" },
-      { label: "Fromma – medicinsk forskning", href: "/stiftelserna#medicin" },
-      { label: "Hemmet för gamla", href: "/stiftelserna#hemmet" },
-      { label: "Försköningsstiftelsen", href: "/stiftelserna#forsk" },
+      { label: "Fromma stiftelsen", href: "/stiftelserna/fromma" },
+      { label: "Fromma – medicinsk forskning", href: "/stiftelserna/medicinsk-forskning" },
+      { label: "Hemmet för gamla", href: "/stiftelserna/hemmet-for-gamla" },
+      { label: "Försköningsstiftelsen", href: "/stiftelserna/forskoning" },
     ],
   },
-  { label: "Vad vi gör", href: "/vad-vi-gor" },
+  { label: "Vad vi gör", links: [{ label: "Verksamhet och stipendier", href: "/vad-vi-gor" }, { label: "Konst i Trelleborg", href: "/vad-vi-gor/konst" }] },
   {
     label: "Om Kockska",
     links: [

@@ -1,0 +1,325 @@
+{
+  "captured": "2026-09-27",
+  "pages": [
+    {
+      "source": "https://www.kockskastiftelsen.se/bakgrund",
+      "destination": "/om-kockska/historia",
+      "blocks": 3,
+      "sha256": "a7ca78d77ddd3070a089071d9d223675fb3e7c570114e414ff570aa2be4142e7"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/fromma-stiftelsen-medicin",
+      "destination": "/stiftelserna/medicinsk-forskning",
+      "blocks": 3,
+      "sha256": "566c4c3b91aedf015f28c646e55d1eb4a64645ac6d2d7e8d1c7e39a252720f51"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/fromma-stiftelsen",
+      "destination": "/stiftelserna/fromma",
+      "blocks": 3,
+      "sha256": "0c03ecb22ef2fc256b8c7aa3037abe42d69e0b09cd574321635869d207fc5e25"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/frskningsstiftelsen",
+      "destination": "/stiftelserna/forskoning",
+      "blocks": 3,
+      "sha256": "bde7d66491da411b0c399da4579dd6d7b87b1a69060fc00c21ffe46d2be3a151"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/hemmet-fr-gamla",
+      "destination": "/stiftelserna/hemmet-for-gamla",
+      "blocks": 2,
+      "sha256": "f75a47a7ff5849254f4cf1b40541fa47070e3621190fb44b72a33f4268cf990d"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/home",
+      "destination": "/",
+      "blocks": 5,
+      "sha256": "a41b6c035dc390b8f94f087f16aace204e60406fd6396332da31adaf7120651f"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/kontakt",
+      "destination": "/kontakt",
+      "blocks": 1,
+      "sha256": "245c1ddd97bbefed3f790309f202ffa7befbdc7970bb4c6f098c537670c269e5"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/nyheter",
+      "destination": "/aktuellt",
+      "blocks": 0,
+      "sha256": "0677ea0af4a3aeb8527c19035dca79ce9aab0c5d867b5abb8afd72e8b9f0d02c"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/nyheter/greta-och-johan-kocks-livsgrning-nu-som-e-bok",
+      "destination": "/aktuellt/greta-och-johan-kocks-livsgrning-nu-som-e-bok",
+      "blocks": 1,
+      "sha256": "60590e2bb652fb23924a97e593290851a7d61516be96993ea6f7723706c620f5"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/nyheter/miljonpriser-till-forskning",
+      "destination": "/aktuellt/miljonpriser-till-forskning",
+      "blocks": 1,
+      "sha256": "598f9767d3699cd50d0eb00774b0ef20eeae4ce5e301e2f3395cb9598c953008"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/nyheter/the-kock-foundation-international-symposium-on-osteoarthritis-and-alzheimers-disease",
+      "destination": "/aktuellt/the-kock-foundation-international-symposium-on-osteoarthritis-and-alzheimers-disease",
+      "blocks": 1,
+      "sha256": "4444038c3b643816aee53f393c6dc3f9085321c3084728266776866f906eb638"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/nyheter/trelleborg-vrd-fr-internationell-konferens-om-artros-och-alzheimers-sjukdom",
+      "destination": "/aktuellt/trelleborg-vrd-fr-internationell-konferens-om-artros-och-alzheimers-sjukdom",
+      "blocks": 1,
+      "sha256": "83fdce7da248828abbc0650c6cac4027f0d2c5cadf80c84062262e7ea9877f2c"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/nyheter/utlysning-2026-avseende-forskningsmiljstd-frn-greta-och-johan-kocks-stiftelser",
+      "destination": "/aktuellt/utlysning-2026-avseende-forskningsmiljstd-frn-greta-och-johan-kocks-stiftelser",
+      "blocks": 1,
+      "sha256": "79958a6fc70a6a69705c89e30bb9e21fbf683ad295a7cf100c56b0d366e78351"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/nyheter/utlysning-projektmedel-fr-medicinsk-forskning-2026",
+      "destination": "/aktuellt/utlysning-projektmedel-fr-medicinsk-forskning-2026",
+      "blocks": 1,
+      "sha256": "f1c9d3a07dc16049a42c09512f24235dc2a942eefa88fd62d8cad62f47299931"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/styrelse-och-anstallda",
+      "destination": "/om-kockska/organisation",
+      "blocks": 0,
+      "sha256": "cd28cd6628d0b514e729d5df2fb0046801ef9863d26be929bb73000df1f45586"
+    }
+  ],
+  "assets": [
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/5d8bb0e4-9d3a-47f6-8067-d1b3dd212761/PAM_3768.jpg",
+      "local": "/images/migrated/5457bdc294f0.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/160876d1-f5e0-42da-992c-7143a9214e4e/img20231107_17262035.jpg",
+      "local": "/images/migrated/f49b97014868.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/4f3a9790-29f5-4b18-806e-3998041cd4b2/img20231107_17225370.jpg",
+      "local": "/images/migrated/b38ab6a1f2e7.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1713267909292-C5Y5P7GYD8EO4J30N0DF/image-asset.jpeg",
+      "local": "/images/migrated/3a38f5a82ff2.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1711115289590-SYC39OYAON29U3IBBW1U/image-asset.jpeg",
+      "local": "/images/migrated/3db6a3a619bc.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1713267778196-62PC9NM91ROQG1OX4DDQ/image-asset.jpeg",
+      "local": "/images/migrated/1e188977e043.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1711115050260-RK2GTC07ITXAAIN813LZ/image-asset.jpeg",
+      "local": "/images/migrated/3b150064ba9e.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1713267973711-93MW5NNXU79S86HDRRMH/image-asset.jpeg",
+      "local": "/images/migrated/16984d52f77c.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/7c0ac008-32d1-418b-b5e2-e352a1c2de02/_DSC1961.jpg",
+      "local": "/images/migrated/f415a0c6a21c.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/49583005-4be8-4ec5-acc2-4eecbee1e434/fred.png",
+      "local": "/images/migrated/7f0ca38b827e.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/c2abd590-94a3-48c7-8d11-bdc5cad0fe90/thure.png",
+      "local": "/images/migrated/5717e14a35b7.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/778399bb-da5f-49ce-a12f-0a16837553fd/thyra.png",
+      "local": "/images/migrated/f96ebad0a810.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/3b894068-a61d-4fc9-9530-8e81fc3b2e18/lena.png",
+      "local": "/images/migrated/23993f4284cf.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/2de58409-7a5b-4d55-8ce9-693126da9f4b/thure2.png",
+      "local": "/images/migrated/b51c44a4e97d.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/dc37be79-5a11-4c17-9b24-9ca1b1a95044/ulla2.png",
+      "local": "/images/migrated/f64b3df57a9e.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/802ab174-169f-49cf-b884-4649b8b25157/ulla.png",
+      "local": "/images/migrated/1966d65669ce.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/8eb26dc8-e150-4758-bf6e-3abe7f8d4c70/kocks.png",
+      "local": "/images/migrated/5a31f85c0f00.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/2ced60fb-fdf4-482d-8fb4-9eb1267b682a/axel.png",
+      "local": "/images/migrated/a5c6037e8309.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/513e748f-765b-42ed-8519-eb2404c25d20/claes.png",
+      "local": "/images/migrated/399248bd0755.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/14b07cd4-c579-49dc-b7fb-8ba7955a2949/jonas.png",
+      "local": "/images/migrated/020c8c00625a.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/ee79c09b-89d8-4da0-b0f5-50dad5a703c7/_DSC1975.jpg",
+      "local": "/images/migrated/3c6c554ebb4c.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/38ba4195-ba1e-40c8-be43-2778ff24d339/_DSC1980.jpg",
+      "local": "/images/migrated/003d14d4e526.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/a57b3854-7899-429e-858d-5507b48ee114/_DSC1986.jpg",
+      "local": "/images/migrated/138e6d7ce2ad.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/b81a08b5-d111-4b75-97fa-56a1774c11e5/_DSC1997.jpg",
+      "local": "/images/migrated/0eb4e21964ec.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/3457bc7d-f4c9-42e7-8f4a-5bbac68b2c24/Sa%CC%88l.jpg",
+      "local": "/images/migrated/38cf97ebd75d.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/e5261c98-b8da-4f2d-97de-085cd0cfb7de/Evigheten.jpg",
+      "local": "/images/migrated/17acd62b9bf7.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/88908a69-915f-497b-877e-91e47ce0db06/Evigt.jpg",
+      "local": "/images/migrated/cc5d67e943bf.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/a510dfcb-73b0-4c38-af77-23eb76e09606/Vid+din+sida.jpg",
+      "local": "/images/migrated/9d36d5c6009c.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1713268020972-4TQNEK5W4CSFASNTT05L/image-asset.jpeg",
+      "local": "/images/migrated/97f506f0f1f6.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1fabdfbb-68ca-40cc-84e3-e701b369cdc3/circle4.png",
+      "local": "/images/migrated/c5b202651b5f.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/91d9a668-7c93-4191-a988-2fd2b9afdf04/Nygifta.jpg",
+      "local": "/images/migrated/a740c91fe8c8.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1711114006975-4XK0XFDHFC3JF4WZM5V7/image-asset.jpeg",
+      "local": "/images/migrated/a764efa313ee.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1711114049841-6MOG7NDUP10C0H83844K/image-asset.jpeg",
+      "local": "/images/migrated/ec4284c9933a.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1711114124351-5OI95UX14GICD6ZLWOTJ/image-asset.jpeg",
+      "local": "/images/migrated/b048b8f5152b.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1711114150320-EUV7CGWJRVRAP3UZ18GZ/image-asset.jpeg",
+      "local": "/images/migrated/9e4413f09600.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/240d9f99-6e20-41da-8865-d6a0db432a2c/AdobeStock_402341966.jpeg",
+      "local": "/images/migrated/53336979e60b.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/86087324-16d9-43f4-b070-5c56d35f12f3/greta+och+johan.jpg",
+      "local": "/images/migrated/4d00b4dc11fc.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1790343000829-NC5GBFNYF8FAIMS4AQZH/Kockska_symposium.png",
+      "local": "/images/migrated/672bde1faf37.png"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1788860489856-1P8C4IWIE6KNTBFB4IXQ/AdobeStock_1913360509.jpeg",
+      "local": "/images/migrated/6c04508e6df6.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1788859925515-8S2GGDC8MS78VTQVEPX5/AdobeStock_1036425289.jpeg",
+      "local": "/images/migrated/17e624ed5437.jpeg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1780577857255-JYIL9PA3CQTB0RLIHVB5/forskning.jpg",
+      "local": "/images/migrated/f6de84c49bce.jpg"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1772117049058-J05VTA0HNTBQHVYJ2SFC/greta%2Boch%2Bjohan.webp",
+      "local": "/images/migrated/001b2cdf2a15.webp"
+    },
+    {
+      "source": "https://images.squarespace-cdn.com/content/v1/65ef24c60753096478f933a9/1770301765245-TY1E09WQ06HTRMJP47KW/Kockska+bild.jpg",
+      "local": "/images/migrated/d9cad77d98e3.jpg"
+    },
+    {
+      "source": "https://static1.squarespace.com/static/65ef24c60753096478f933a9/6984a48653850d0ddeeba956/69a05b9f805bc57ea318a382/1772117189974/greta%2Boch%2Bjohan.webp?format=1500w",
+      "local": "/images/migrated/c8c1722cc8c3.webp"
+    },
+    {
+      "source": "https://static1.squarespace.com/static/65ef24c60753096478f933a9/6984a48653850d0ddeeba956/6984a48653850d0ddeeba95d/1772113754642/Kockska+bild.jpg?format=1500w",
+      "local": "/images/migrated/7c29b094f6e0.jpg"
+    },
+    {
+      "source": "https://static1.squarespace.com/static/65ef24c60753096478f933a9/6984a48653850d0ddeeba956/6a9fd7be4be00802748eaca7/1788860499378/AdobeStock_1913360509.jpeg?format=1500w",
+      "local": "/images/migrated/28cc853879f5.jpeg"
+    },
+    {
+      "source": "https://static1.squarespace.com/static/65ef24c60753096478f933a9/6984a48653850d0ddeeba956/6ab6772dcf0beb534f3b900d/1790343069581/Kockska_symposium.png?format=1500w",
+      "local": "/images/migrated/b12821fd316c.png"
+    },
+    {
+      "source": "https://static1.squarespace.com/static/65ef24c60753096478f933a9/6984a48653850d0ddeeba956/6a2175477c195b7fdbaa6088/1780577879525/forskning.jpg?format=1500w",
+      "local": "/images/migrated/b0cb8336a9f5.jpg"
+    },
+    {
+      "source": "https://static1.squarespace.com/static/65ef24c60753096478f933a9/6984a48653850d0ddeeba956/6a9fd51f691dea61008bb2fc/1788859935147/AdobeStock_1036425289.jpeg?format=1500w",
+      "local": "/images/migrated/ce749cdaae9d.jpeg"
+    }
+  ],
+  "documents": [
+    {
+      "source": "https://www.kockskastiftelsen.se/s/Mer-information-om-ansokan.pdf",
+      "local": "/dokument/ansokningsanvisningar.pdf",
+      "sha256": "64f6bd12305e7aa6db39d985c5e617bc5c1719b73e3e22012525239189f43b82"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/s/FrommaAnsokningsblankettprivat2023_rev2026MN.pdf",
+      "local": "/dokument/privatpersoner-ansokan-2026.pdf",
+      "sha256": "cacec984cc857c432b723e5c76c409018d5ae492f95595c0eaa836d5f04f94d3"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/s/Fromma-Ansokningsblankett-organisationer_rev2025-MN.pdf",
+      "local": "/dokument/foreningar-ansokan-2025.pdf",
+      "sha256": "adb831bf0d336bb38b68d683e266e1c4f60ccb628bc8e7a2cf55e78a36e1ca7d"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/s/HfGAnsokningsblanketthyresbidragm2026arsprisbasbelopp_rev2025_MNB.pdf",
+      "local": "/dokument/bostadsbidrag-ansokan-2026.pdf",
+      "sha256": "49794d8980567cfc821132df547e556a96e6117d91ca6d6ff98648b7678ee062"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/s/Styrdokument_Forskningsmedel-Kockska-20260905.pdf",
+      "local": "/dokument/forskningsmedel-styrdokument-2026.pdf",
+      "sha256": "85afd25f15d20ef591d7115a183a438fc9ef3ea7b8bf777be702aad57cf77511"
+    },
+    {
+      "source": "https://www.kockskastiftelsen.se/s/GDPR-Integritetspolicy-Kockska-210317.pdf",
+      "local": "/dokument/integritetspolicy-2021.pdf",
+      "sha256": "ad8d2bdfa4bef4681a36df5bc2fdb579f42a80468eb07fe855e717b2c575e923"
+    }
+  ]
+}

@@ -1,8 +1,17 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import type { Call } from "@/content/site";
 import { getActiveCalls, getCallStatus } from "@/lib/calls";
 
 export function ActiveCalls({ allCalls }: { allCalls: readonly Call[] }) {
-  const calls = getActiveCalls(allCalls);
+  const [now, setNow] = useState<Date | null>(null);
+  useEffect(() => {
+    setNow(new Date());
+    const timer = window.setInterval(() => setNow(new Date()), 60_000);
+    return () => window.clearInterval(timer);
+  }, []);
+  const calls = now ? getActiveCalls(allCalls, now) : allCalls;
 
   return (
     <section id="aktuella-utlysningar" className="calls-section section-space" aria-labelledby="calls-title">
@@ -14,10 +23,10 @@ export function ActiveCalls({ allCalls }: { allCalls: readonly Call[] }) {
         {calls.length > 0 ? (
           <div className="calls-list">
             {calls.map((call) => {
-              const status = getCallStatus(call);
+              const status = now ? getCallStatus(call, now) : null;
               return (
                 <article className="call-row" key={call.id}>
-                  <div className="call-status"><span className="status-dot" aria-hidden="true" />{status === "stanger-snart" ? "Stänger snart" : "Öppen nu"}</div>
+                  <div className="call-status"><span className="status-dot" aria-hidden="true" />{status === null ? "Ansökningsperiod" : status === "stanger-snart" ? "Stänger snart" : "Öppen nu"}</div>
                   <div className="call-content">
                     <p className="overline">Medicinsk forskning / 2026</p>
                     <h3>{call.title}</h3>

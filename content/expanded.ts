@@ -23,7 +23,7 @@ export const supportAreas = [
     facts: [
       { title: "Vem kan söka?", text: "Föreningar och organisationer i Trelleborg. Om en lokal förening saknas kan även en regional förening med anknytning till Trelleborg komma i fråga." },
       { title: "Vad kan få stöd?", text: "Insatser för barn och unga samt vård och stöd för behövande äldre och sjuka, inom ramen för stiftelsens ändamål. Styrelsen fördelar anslagen ur understödsfonden." },
-      { title: "När?", text: "Ansökningstiderna anges till den 1 april och den 1 oktober varje år. Be kansliet om aktuell föreningsblankett och besked om vilka bilagor som behövs." },
+      { title: "När?", text: "Ansökningsanvisningen anger 1 april för särskilda ändamål och 1 april eller 1 oktober för nya projekt eller ny verksamhet. Webbplatsens övergripande information anger båda datumen. Kansliet kan bekräfta vilken omgång er ansökan tillhör." },
     ],
     action: "Kontakta kansliet för blankett och villkor som gäller er organisation.",
     documentUrl: "/dokument/foreningar-ansokan-2025.pdf",
@@ -37,8 +37,8 @@ export const supportAreas = [
     facts: [
       { title: "Bostadsbidrag", text: "Bostadsbidrag kan sökas löpande under året. Man behöver inte bo i de fastigheter som tidigare tillhörde stiftelsen för att söka." },
       { title: "Annat stöd", text: "Stiftelsen kan även bidra till vård av behövande äldre och sjuka. För dessa anslag anges den 1 april och den 1 oktober som ansökningstider." },
-      { title: "Lägenheter", text: "Stiftelsens fastigheter såldes 2019. Stiftelsen tar därför inte längre emot lägenhetsansökningar; sådana frågor hänvisas till fastigheternas nya ägare." },
-      { title: "Inför ansökan", text: "Den befintliga blanketten efterfrågar bland annat hyreskontrakt, ekonomiskt underlag och i vissa fall relevanta intyg. Kontakta kansliet för en aktuell version och säker inlämningsväg." },
+      { title: "Lägenheter", text: "Fastigheterna såldes den 1 april 2019 till Alsingevallen i Trelleborg. Stiftelsen tar inte längre emot lägenhetsansökningar; sådana frågor handhas av köparen." },
+      { title: "Inför ansökan", text: "Den befintliga blanketten efterfrågar bland annat hyreskontrakt, ekonomiskt underlag och i vissa fall relevanta intyg. Blankett och checklista finns längre ned på sidan." },
     ],
     action: "Be kansliet om blanketten för bostadsbidrag eller annat stöd.",
   },
@@ -62,10 +62,10 @@ export const supportAreas = [
 ] as const;
 
 export const foundationAreas = [
-  { id: "fromma", title: "Fromma stiftelsen", subtitle: "Understödsfonden", text: "Greta och Johan Kocks stiftelse för behövande unga, gamla eller sjuka delar ut anslag till enskilda och organisationer med anknytning till Trelleborg. Ändamålet gäller bland annat barn och ungas utveckling samt vård av behövande äldre och sjuka.", href: "/sok-stod" },
-  { id: "medicin", title: "Fromma stiftelsen", subtitle: "Fonden för medicinsk forskning", text: "Forskningsfonden finansierar kliniskt patientnära forskning inom bland annat artros och kognitiva sjukdomar. Utlysningar riktar sig till kvalificerade forskare inom Lunds universitet och Region Skåne.", href: "/sok-stod/medicinsk-forskning" },
-  { id: "hemmet", title: "Hemmet för gamla", subtitle: "Bostadsbidrag och vård", text: "Stiftelsen har sedan försäljningen av fastigheterna 2019 verksamhet som avkastningsstiftelse. Den kan ge bostadsbidrag till äldre i Trelleborg och stöd till vård av behövande äldre och sjuka.", href: "/sok-stod/aldre" },
-  { id: "forsk", title: "Försköningsstiftelsen", subtitle: "Konst och miljö i Trelleborg", text: "Avkastningen ska användas för Trelleborgs kommuns försköning. Stiftelsen har genom åren medverkat till konstverk, parker, stadsmiljöer och kulturhistoriska insatser.", href: "/vad-vi-gor#trelleborg" },
+  { id: "fromma", title: "Fromma stiftelsen", subtitle: "Understödsfonden", text: "Greta och Johan Kocks stiftelse för behövande unga, gamla eller sjuka delar ut anslag till enskilda och organisationer med anknytning till Trelleborg. Ändamålet gäller bland annat barn och ungas utveckling samt vård av behövande äldre och sjuka.", href: "/stiftelserna/fromma" },
+  { id: "medicin", title: "Fromma stiftelsen", subtitle: "Fonden för medicinsk forskning", text: "Forskningsfonden finansierar kliniskt patientnära forskning inom bland annat artros och kognitiva sjukdomar. Utlysningar riktar sig till kvalificerade forskare inom Lunds universitet och Region Skåne.", href: "/stiftelserna/medicinsk-forskning" },
+  { id: "hemmet", title: "Hemmet för gamla", subtitle: "Bostadsbidrag och vård", text: "Stiftelsen har sedan försäljningen av fastigheterna 2019 verksamhet som avkastningsstiftelse. Den kan ge bostadsbidrag till äldre i Trelleborg och stöd till vård av behövande äldre och sjuka.", href: "/stiftelserna/hemmet-for-gamla" },
+  { id: "forsk", title: "Försköningsstiftelsen", subtitle: "Konst och miljö i Trelleborg", text: "Avkastningen ska användas för Trelleborgs kommuns försköning. Stiftelsen har genom åren medverkat till konstverk, parker, stadsmiljöer och kulturhistoriska insatser.", href: "/stiftelserna/forskoning" },
 ] as const;
 
 export const artworks = [
