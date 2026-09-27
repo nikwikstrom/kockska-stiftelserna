@@ -469,3 +469,41 @@ button, summary { cursor: pointer; }
 .breadcrumb { max-width: 100%; flex-wrap: wrap; overflow-wrap: anywhere; }
 .reading-layout > aside a { max-width: 20rem; line-height: 1.4; }
 .interior-section > h2 { margin: 0 0 1.5rem; font-size: clamp(2rem, 3vw, 3rem); line-height: 1.15; font-weight: 400; }
+
+/* Digital applications: the same restrained type and rules as the printed forms. */
+.digital-form, .submission-receipt { max-width: 47rem; margin-block: 1rem 2.5rem; }
+.digital-form fieldset { margin: 1.75rem 0; padding: 1.25rem 0 0; border: 0; border-top: 1px solid var(--color-rule); min-width: 0; }
+.digital-form legend { font-size: 1.45rem; padding-right: 1rem; }
+.digital-form label { display: grid; gap: .4rem; margin-bottom: 1.1rem; }
+.digital-form input:not([type="checkbox"]), .inbox-select { width: 100%; border: 1px solid #7d8ca7; background: white; color: var(--color-ink); font: inherit; padding: .65rem; border-radius: 0; min-height: 48px; }
+.digital-form input[type="file"] { font-size: 1rem; max-width: 100%; }
+.digital-form input::file-selector-button { font: inherit; padding: .4rem .6rem; margin-right: .7rem; }
+.form-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.digital-form .form-declarations label { display: grid; grid-template-columns: 1.3rem 1fr; gap: .8rem; align-items: start; }
+.form-declarations input { width: 1.15rem; height: 1.15rem; margin-top: .3rem; accent-color: var(--color-ink); }
+.digital-form a, .submission-receipt a { text-decoration: underline; }
+.form-note { font-size: 1rem; max-width: 40rem; }
+.form-error { border-left: 3px solid #a22c29; padding: .8rem 1rem; background: #fff0ec; color: #751e1b; }
+.form-trap { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.digital-form button:disabled { cursor: wait; opacity: .65; }
+.submission-receipt { padding: 1.5rem; background: #c9e1f6; border-top: 2px solid var(--color-ink); }
+.submission-receipt dt { margin-top: 1rem; font-weight: 600; }
+.submission-receipt dd { margin: .25rem 0; }
+.receipt-reference { overflow-wrap: anywhere; }
+.postal-alternative { border-top: 1px solid var(--color-rule); padding-top: 1rem; }
+.postal-alternative summary { font-size: 1.25rem; }
+.inbox-layout { padding-block: 3rem; }
+.inbox-toolbar { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
+.inbox-row { display: block; width: 100%; text-align: left; border: 0; border-bottom: 1px solid var(--color-rule); background: transparent; padding: 1rem 0; color: inherit; font: inherit; }
+.inbox-row span { display: block; }
+.inbox-row strong { font-size: 1.4rem; }
+.inbox-row:hover { background: #c9e1f644; }
+.inbox-detail { max-width: 48rem; }
+.inbox-detail dd { margin: 0 0 1rem; overflow-wrap: anywhere; }
+.inbox-detail dt { font-weight: 600; }
+.inbox-files { padding: 0; list-style: none; }
+.inbox-files li { border-bottom: 1px solid var(--color-rule); padding-block: .75rem; overflow-wrap: anywhere; }
+.inbox-files a { text-decoration: underline; }
+.danger-zone { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--color-rule); }
+.danger-zone button { font: inherit; color: #751e1b; text-decoration: underline; }
+@media (max-width: 600px) { .form-columns { grid-template-columns: 1fr; gap: 0; } .digital-form button { width: 100%; } }

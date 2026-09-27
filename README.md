@@ -23,3 +23,7 @@ python3 scripts/verify-content.py
 - `docs/08-content-reconciliation.md`: täckning, verifiering, källkonflikter och kvarstående beslut.
 
 Originalets saknade sida `/forskningsmiljostod` svarar 404. Den tillgängliga nyhetsartikeln finns i sin helhet, men den saknade fördjupningstexten behöver återfås från stiftelsen för full historisk täckning.
+
+## Digital inlämning
+
+Tre lokala stödformer har nu digital inlämning av undertecknad blankett och bilagor, privat lagring och kansliets inkorg på `/kansli`. Se [drift och behörigheter](docs/09-digital-applications.md). Next.js exporten kompletteras med en Worker. Kör `pnpm build`, `pnpm test:applications` och `python3 scripts/verify-content.py`. Ingen automatisk e-postavisering skickas.

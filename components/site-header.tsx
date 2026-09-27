@@ -11,6 +11,7 @@ const navigation = [
       { label: "Föreningar", href: "/sok-stod/foreningar" },
       { label: "Äldre och bostadsbidrag", href: "/sok-stod/aldre" },
       { label: "Medicinsk forskning", href: "/sok-stod/medicinsk-forskning" },
+      { label: "Forskningsmiljöstöd 2026", href: "/sok-stod/forskningsmiljostod" },
       { label: "Blanketter och dokument", href: "/dokument" },
     ],
   },
